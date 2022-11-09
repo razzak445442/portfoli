@@ -1,0 +1,331 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: var(--bodybackgrounColor);
+
+ 
+   
+}
+:root{
+    --backgroundColor:#434e634d;
+    --bodybackgrounColor:#a9b0bd4d;
+    --allDainamikalBackgColor:
+    --color:#f36363;
+}
+html{
+    scroll-behavior: smooth;
+}
+/* only  night mode use youer css  by javaScript  */
+.nightMode{
+    --nightfontColor:white;
+    --bodybackgroundColor:rgba(0, 0, 0,0.6);
+
+}
+
+
+/* only  night mode use youer css  by javaScript  */
+
+
+/* <!------------ head Secescion and menu section ----------------> */
+.mainDiv{
+    height: 600px;
+    width: 100%;
+    border-bottom:1px solid blue;
+
+
+}
+
+/* <!------- menuber start ------------> */
+.menuBar{
+    height: 40px;
+    width: 120%;
+    position:fixed;
+
+
+}
+
+.menuBar div{
+    position:relative ;
+    left: 40%;
+    top: 10px;
+    width: 100%;
+
+}
+
+.menuBar div a{
+    text-decoration: none;
+    padding: 20px;
+    
+    font-size: 1.1rem;
+    letter-spacing: 0.2rem;
+    color: var(--nightfontColor);
+}
+/* <!------- menuber start ------------> */
+
+/* <!------- Night Icon start ------------> */
+.nightAndSunicon{
+    
+    position:fixed;
+    top: 10px;
+    margin-left:3rem;
+    
+}
+ 
+ /*<!------- Night Icon start ------------> */
+
+ 
+.mobileIcon{
+    position:relative;
+    left:115%;
+    z-index:10;
+    display: none;
+
+}
+/* <!------- Mobile sceen size and menubar start ------------> */
+.mobileShowDiv a{
+    text-decoration: none;
+}
+
+ .mobilemebu{
+    position: absolute;
+    height: 350px;
+    width: 100%;
+    background-color:rgb(0, 33, 71,0.9);
+    color: #ff9d9d;
+    z-index: 2;
+    display: none;
+}
+/* javascipt use mobile Icon show */
+.mobileIconShow{
+    display:inline-block;
+    text-decoration:none;
+}
+
+.mobilemebuCancel{
+   float: right;
+   position: relative;
+   left: -1rem;
+   top: 1rem;
+}
+ .mobilemebu a{
+    display: block;
+    padding: 12px;
+    text-align: center;
+    
+    font-size: 1.1rem;
+    letter-spacing: 0.2rem;
+    color: var(--nightfontColor);
+}
+/* <!------- Mobile sceen size and menubar start ------------> */
+
+
+
+
+
+.sunIcon{
+    
+    color:rgba(169, 176, 189, 0.0);
+   
+}
+.titel{
+    position: fixed;
+    font-weight: bold;
+    font-size: 25px;
+    margin-left: 10rem;
+    color: var(--nightfontColor);
+
+}
+
+
+.personelDelets{
+    position: relative;
+    top: 200px;
+}
+.personelDelets .headDiv{
+    position: absolute;
+    left: 10%;
+    letter-spacing: 2px;
+    line-height: 50px;
+    color: var(--nightfontColor);
+}
+.afterAndbefore{
+    color: blue;
+
+}
+.afterAndbefore::after{
+    content: '';
+    position:absolute;
+    height: 40px;
+    width: 1px;
+    border: 1px solid red;
+    background-color: red;
+    animation:type 0.30s infinite;
+}
+@keyframes type{
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+
+    }
+}
+.personelDelets .paragrapDiv{
+    position: absolute;
+    top: 150px;
+    left: 10%;
+    height: 200px;
+    width: 30%;
+    color: var(--nightfontColor);
+}
+.moreBattun{
+    position: absolute;
+    top: 250px;
+    left: 10%;
+
+}
+.moreBattun .MorebtnHere{
+    font-size: 1rem;
+    padding: 0.6rem 1rem;
+    border-radius:15px 0px 15px;
+    background-color: rgb(65, 65, 116);
+    color: white;
+ 
+}
+
+.imgDiv{
+    position: absolute;
+    left: 60%;
+    top: 50px;
+    z-index: -1;
+
+}
+.imgDiv img{
+    height: 550px;
+}
+
+.mobileviewButton{
+    
+    display: none;
+    
+}
+/* <!------------ head Secescion and menu section ----------------> */
+
+
+/* --------about selection start -------*/
+.AboutSction{
+   position:relative;
+    top: 150px;
+    height: 600px;
+    width: 100%;
+    z-index: -1;
+ 
+
+}
+.abouttitell{
+    width:5%;
+    margin: 0 auto;
+
+}
+.abouttitell h1{
+    color: blue;
+}
+
+.aboutImgeDiv{
+    position:relative;
+    left: 45%;
+    top: 70px;
+    color: var(--nightfontColor);
+
+}
+.aboutImgeDiv img{
+ height: 200px;
+ width: 200px;
+  border-radius: 50%;
+}
+.aboutText{
+    position: absolute;
+    left: 26%;
+    top:350px;
+    height: 180px;
+    width: 50%;
+    line-height: 25px;
+    color: var(--nightfontColor);
+    letter-spacing: 2px;
+  
+    font-size: 1.1rem;
+    text-align: justify;
+
+}
+.Cvbtn{
+    height: 30px;
+    width:30%;
+    position: absolute;
+
+    left: 35%;
+   
+    border-radius: 10px;
+}
+
+  /* skill section :start  */
+  .skill{
+    position: relative;
+    top: 300px;
+    width: 100%;
+    height: 400px;
+    
+}
+.skillhead{
+  width: 0;
+  margin: 0 auto;
+  color: blue;
+}
+.skilldevolometone{
+  position: absolute;
+  width: 100%;
+  left:25%;
+  top: 100px;
+ 
+}
+
+.skilldevolometone ul li{
+  list-style: none;
+  padding:20px;
+
+  text-transform: uppercase;
+  color: var(--nightfontColor);
+}
+.skilldevolometone ul li::before{
+  content: '';
+  position: absolute;
+  height: 15px;
+  width: 50%;
+  border-radius: 10px;
+  left: 1%;
+  background-color:var(--backgroundColor);
+  margin-top: 30px;
+}
+.skilldevolometone ul li::after{
+  content: '';
+  position: absolute;
+  height: 15px;
+  width: 30%;
+  border-radius: 10px;
+  left: 1%;
+  margin-top: 30px;
+  background-color:rgba(63, 72, 197, 0.648);
+  animation:skill 3s infinite;
+}
+@keyframes skill{
+  0%{
+    width: 2%;
+  }
+  100%{
+    width: 40%;
+  }
+}
+
+/* skill section end */

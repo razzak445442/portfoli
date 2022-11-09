@@ -1,0 +1,403 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@media(max-width:1380px){
+    .menuBar{
+        left: -5%;
+        
+       
+      
+    }
+    .menuBar span{
+        margin-left: 13rem;
+        color: red;
+    }
+
+    
+
+
+}
+
+@media(max-width:1265px){
+    .menuBar{
+        left: -10%;
+       
+    
+    }
+    
+    .menuBar span{
+        margin-left: 15rem;
+        color: red;
+    }
+
+   
+    
+}
+@media(max-width:1150px){
+    .menuBar{
+        left: -10%;
+   
+       
+      
+    }
+    
+    
+   
+}
+
+@media(max-width:1045px){
+    .menuBar{
+        left:-13%;
+   
+       
+      
+    }
+    .personelDelets{
+        left:-5%;
+       
+      }
+      .personelDelets .headDiv{
+        font-size: 0.9rem;
+      }
+      
+    
+   
+}
+
+@media(max-width:967px){
+    .menuBar{
+        left:-16%;
+    }
+    .menuBar div a{
+        text-decoration: none;
+        padding: 15px;
+        
+        font-size: 1.1rem;
+        letter-spacing: 0.1rem;
+        color: var(--nightfontColor);
+    }
+  
+  
+      
+      .personelDelets .headDiv{
+        font-size: 0.7rem;
+      }
+
+      .menuBar span{
+        margin-left: 15rem;
+        position: absolute;
+        top: 10px;
+      
+        color: red;
+        font-size: large;
+    }
+    .nightAndSunicon{
+        top: 10px;
+        margin-left: 3rem;
+     }
+     .aboutImgeDiv{
+        left:43%;
+
+    }
+    .aboutText{
+        position: absolute;
+        left: 20%;
+        top:350px;
+        height: 180px;
+        width: 60%;
+        line-height: 25px;
+        color: var(--nightfontColor);
+        letter-spacing: 2px;
+      
+        font-size: 1rem;
+       
+    
+    }
+    .skillhead{
+        width: 0;
+        margin-left:45%;
+        color: blue;
+      }
+
+}
+@media (max-width:810px){
+    .menuBar{
+        left:-18%;
+    }
+    .nightAndSunicon{
+        margin-right: 2rem;
+       
+     }
+    .menuBar span{
+        margin-left: 14rem;
+        position: absolute;
+        top: 10px;
+      
+        color: red;
+        font-size: large;
+    }
+ 
+    
+
+
+}
+
+@media(max-width:760px){
+   .menuBar div{
+    display: none;
+   }
+   .mobileIcon{
+    display: inline-block;
+    position: fixed;
+    top: 5px;
+    left: 92%;
+
+
+   }
+   .mainDiv{
+    
+    box-shadow: 0px 1px 1px darkgray;
+
+}
+.personelDelets .paragrapDiv{
+    width: 45%;
+ 
+}
+
+
+
+}
+@media(max-width:725px){
+    .aboutText{
+        position: absolute;
+        left: 25%;
+        top:350px;
+        height: 180px;
+        width: 60%;
+        line-height: 20px;
+       
+        letter-spacing: 1px;
+      
+        
+       
+    
+    }
+}
+@media(max-width:620px){
+
+.personelDelets .headDiv{
+   
+    letter-spacing: 2px;
+    line-height: 25px;
+    font-size: 0.5rem;
+}
+.skilldevolometone{
+  
+    left:5%;
+    
+   
+  }
+  
+  
+  .skilldevolometone ul li::before{
+    
+    width: 90%;
+   
+  }
+  .skilldevolometone ul li::after{
+   
+    animation:skill 3s infinite;
+  }
+  @keyframes skill{
+    0%{
+      width: 2%;
+    }
+    100%{
+      width: 70%;
+    }
+  }
+  
+
+}
+
+@media(max-width:574px){
+   
+    .menuBar span{
+        margin-left: 12rem;
+        color: red;
+    }
+    .personelDelets .paragrapDiv{
+        position: absolute;
+        top: 110px;
+        left: 10%;
+        height: 300px;
+        width: 50%;
+        
+    }
+    .aboutText{
+
+        left: 15%;
+
+      
+        width: 70%;
+        line-height: 20px;
+        
+        letter-spacing: 2px;
+      
+        font-size: 0.7rem;
+       
+    
+    }
+    .aboutImgeDiv{
+        left: 30%;
+    }
+    .abouttitell{
+        width:5%;
+        margin-left:40%;
+    
+    }
+    .skillhead{
+        margin-left:40% ;
+      }
+
+
+    
+}
+
+@media(max-width:433px){
+   
+    .menuBar span{
+        margin-left: 13rem;
+        color: red;
+    }
+    .personelDelets{
+        top: 150px;
+
+    }
+    .MorebtnHere{
+        display: none;
+    }
+    .personelDelets .headDiv{
+        top: -400px;
+       
+        line-height: 25px;
+        font-size: 0.7rem;
+        color: rgb(255, 0, 230);
+    }
+    .personelDelets .paragrapDiv{
+        display:none;
+        
+    }
+    .mobileviewButton{
+        display: inline-block;
+        height: 35px;
+        width:10rem;
+        position: relative;
+        left: 8%;
+        top: -150px;
+        border-radius: 10px;
+    }
+    .imgDiv{
+      position: relative;
+        left: 40%;
+        top: 50px;
+   
+    }
+    .mobileIcon{
+        display: inline-block;
+        position: fixed;
+        top: 5px;
+        left: 90%;
+     
+       }
+    
+   
+    
+}
+
+@media(max-width:400px){
+    .mobileIcon{
+        
+        left: 90%;
+      
+    
+       }
+       
+     
+    .nightAndSunicon{
+    
+        position: fixed;
+        top: 10px;
+        margin-left:2rem;
+    }
+    .skillhead{
+       margin-left: 35%;
+      }
+
+}
+
+@media(max-width:400px){
+    
+
+}
+
+@media(max-width:365px){
+    .nightAndSunicon{
+        margin-left:1rem;
+    }
+    .aboutImgeDiv{
+        left: 20%;
+        
+    }
+    .abouttitell{
+        margin-left: 35%;
+    }
+    
+}
+@media(max-width:370px){
+      
+    .menuBar span{
+      margin-left:10rem;
+      
+    }
+    .Cvbtn{
+        left: 25%;
+        width:60%;
+    }
+    .skill{
+       
+        top: 400px;
+        
+    }
+    
+}
+
+@media(max-width:309px){
+      
+    .menuBar span{
+      margin-left:8rem;
+      
+    }
+}
+@media(max-width:280px){
+      
+    .menuBar span{
+      display: none;
+      
+    }
+    .aboutImgeDiv{
+        left: 12%;
+    }
+    .skill{
+        position: relative;
+        top: 500px;
+       
+        
+    }
+    .skillhead{
+       margin-left: 24%;
+      }
+}
